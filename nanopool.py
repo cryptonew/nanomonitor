@@ -38,7 +38,7 @@ if len(stats.get("data")) < workers_num:
                 time.sleep(30)
                 stats = getStats()
                 if len(stats.get("data")) < workers_num:
-                        sendAlert("NanoPool worker DOWN. Please fix it!","nanopool")
+                        sendAlert("ZEC 1060 NanoPool worker DOWN. Please fix it!","nanopool")
                         print ""
                         print "Third Check Fails. Workers< " + str(workers_num) + " Sending Alert"
                         print stats
